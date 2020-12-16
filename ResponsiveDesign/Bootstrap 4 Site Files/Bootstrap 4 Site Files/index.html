@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Simple CRM</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="css/style.css" rel="stylesheet">
+	<script type="text/javascript" src="script/script.js"></script>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"><img src="img/BullsEye.png" alt=""></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Accounts</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#">Contacts</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#">Deals</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<!-- Dropdown Views -->
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    My Accounts
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">All Accounts</a>
+  </div>
+</div>
+
+<!-- Action Buttons -->
+<div class="newbutton">
+  <button type="button" class="btn btn-primary" onclick="window.location.href='CreateAccountPage.html';">Create New</button>
+</div>
+
+<!-- Account List View -->
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Name</th>
+      <th scope="col">Address</th>
+      <th scope="col">Industry</th>
+      <th scope="col">Market Cap</th>
+      <th scope="col">Annual Revenue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td><a href="AccountDetailPage.html">Apple</td>
+      <td>1 Infiinte Loop, Cupertino, CA</td>
+      <td>High Tech</td>
+      <td>1 Trillion</td>
+      <td>100 Billion</td>
+    <tr>
+      <th scope="row">2</th>
+      <td><a href="#">Google</td>
+      <td>2 Google Way, Mountain View, CA</td>
+      <td>High Tech</td>
+      <td>500 Billion</td>
+      <td>100 Billion</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td><a href="#">Facebook</td>
+      <td>3 Hacker Way, Menlo Park, CA</td>
+      <td>High Tech</td>
+      <td>250 Billion</td>
+      <td>100 Billion</td>
+    </tr>
+  </tbody>
+</table>
+
+  </body>
+</html>
+
+<!--- Check out my course on Udemy! -->
+<!--
+<div class="udemy-course" style="position: fixed; bottom: 0; right: 0; margin-bottom: -5px; z-index: 100;">
+	<a href="http://bit.ly/advanced-bootstrap-course" target="_blank" style="z-index: 999!important; cursor: pointer!important;"><img src="https://www.w3newbie.com/wp-content/uploads/nuno-udemy-banner.png" style="max-width: 100%; min-width: 100%;"></a>
+</div>
+-->
+
+
